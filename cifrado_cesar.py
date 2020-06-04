@@ -16,11 +16,9 @@ def cifrado(sentencia, llave=10):
 
     return cifrado
                        
-
 a = cifrado('Hola Como estaz', 23)
 print(a)
         
-
 def descifrado(sentencia, llave=10):
     sentencia = sentencia.lower()
     alfabeto = string.ascii_lowercase
@@ -36,7 +34,6 @@ def descifrado(sentencia, llave=10):
             cifrado += letra
 
     return cifrado
-
 
 a = descifrado('elix zljl bpqxw', 23)
 print(a)
